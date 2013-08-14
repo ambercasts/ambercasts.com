@@ -24,6 +24,7 @@ _site
 .tmp
 bower_components
 node_modules
+out
 tmp
 
 # OS or Editor folders
