@@ -18,6 +18,10 @@
   },
   "dependencies": {
     "grunt": "~0.4.1",
-    "docpad": "~6.49.1"
+    "docpad": "~6.49.1",
+    "docpad-plugin-ghpages": "~2.3.0",
+    "docpad-plugin-eco": "~2.0.2",
+    "docpad-plugin-livereload": "~2.5.2",
+    "docpad-plugin-less": "~2.2.0"
   }
 }
