@@ -1,7 +1,5 @@
 # DocPad Configuration
 docpadConfig = {
-  outPath: '_site'
-
   # =================================
   # Template Configuration
 
