@@ -42,5 +42,6 @@ validation-staus.json
 .CVS
 .idea
 .tmp
-tmp
+bower_components
 node_modules
+tmp
