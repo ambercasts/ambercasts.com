@@ -1,6 +1,6 @@
 # AmberCasts website
 
-[[http://ambercasts.com]]
+Docpad website for [http://ambercasts.com](http://ambercasts.com)
 
 
 ### Installation
