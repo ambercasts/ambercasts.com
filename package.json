@@ -1,0 +1,23 @@
+{
+  "name": "ambercasts",
+  "version": "0.0.0",
+  "description": "AmberCasts website",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ambercasts/ambercasts.github.io.git"
+  },
+  "author": "JohnnyT",
+  "readmeFilename": "README.md",
+  "main": "node_modules/docpad/bin/docpad-server",
+  "scripts": {
+    "start": "node_modules/docpad/bin/docpad-server"
+  },
+  "engines": {
+    "node": "0.10",
+    "npm": "1.2"
+  },
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "docpad": "~6.49.1"
+  }
+}
