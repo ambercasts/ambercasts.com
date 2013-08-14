@@ -16,6 +16,16 @@ _site
 *.sass-cache
 *.ruby-version
 
+# Folders
+.hg
+.svn
+.CVS
+.idea
+.tmp
+bower_components
+node_modules
+tmp
+
 # OS or Editor folders
 .DS_Store
 ._*
@@ -35,13 +45,3 @@ nbproject
 
 # grunt-html-validation
 validation-staus.json
-
-# Folders to ignore
-.hg
-.svn
-.CVS
-.idea
-.tmp
-bower_components
-node_modules
-tmp
