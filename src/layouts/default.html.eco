@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title><%= @getPreparedTitle() %></title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <%- @getBlock('meta').toHTML() %>
+    <%- @getBlock('styles').add(['/css/app.css']).toHTML() %>
+  </head>
+  <body>
+    <%- @content %>
+    <div id="scripts">
+      <%- @getBlock('scripts').toHTML() %>
+    </div>
+  </body>
+</html>

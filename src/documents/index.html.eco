@@ -1,0 +1,12 @@
+---
+layout: default
+title: Amber Casts - Coming Soon
+---
+
+<div class="container-narrow">
+  <div class="jumbotron">
+    <img src="img/ambercasts-icon-256.png" width="256" height="256"/>
+    <h1>Amber Casts</h1>
+    <p class="lead">Coming Soon.</p>
+  </div>
+</div>
