@@ -23,5 +23,9 @@
     "docpad-plugin-eco": "~2.0.2",
     "docpad-plugin-livereload": "~2.5.2",
     "docpad-plugin-less": "~2.2.0"
+  },
+  "devDependencies": {
+    "grunt-exec": "~0.4.2",
+    "grunt-contrib-clean": "~0.5.0"
   }
 }
