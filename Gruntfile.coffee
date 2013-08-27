@@ -87,7 +87,7 @@ module.exports = (grunt) ->
         # Push commit to URL saved in variable
 
         # Return back like nothing happened :)
-        command: "cd ./dist" + " && rm -f build.txt" + " && target_repo=`git config remote.origin.url`" + " && git init" + " && git add ." + " && git commit -m'build'" + " && git push $target_repo master:master --force" + " && rm -fr .git" + " && cd ../" + ""
+        command: "cd ./out" + " && rm -f build.txt" + " && target_repo=`git config remote.origin.url`" + " && git init" + " && git add ." + " && git commit -m'build'" + " && git push $target_repo gh-pages:gh-pages --force" + " && rm -fr .git" + " && cd ../" + ""
         stdout: true
 
 
